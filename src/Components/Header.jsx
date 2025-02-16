@@ -2,6 +2,8 @@ import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { FaFacebookF, FaInstagram, FaBehance, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
+import backgroundImage from '/src/assets/01-1.jpg'; // Import background image
+import logo from '/src/assets/blue-official.png'; // Import logo
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -47,7 +49,7 @@ const Header = () => {
 
       {/* Background Image */}
       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0" 
-        style={{ backgroundImage: `url('/src/assets/01-1.jpg')` }}>
+        style={{ backgroundImage: `url(${backgroundImage})` }}>
       </div>
 
       {/* Overlay */}
@@ -82,7 +84,7 @@ const Header = () => {
         flex flex-col md:flex-row items-center justify-between w-[950px] text-lg">
 
           {/* Logo */}
-          <img src="/src/assets/blue-official.png" alt="Logo" className="h-12" />
+          <img src={logo} alt="Logo" className="h-12" />
 
           {/* Mobile Menu Button */}
           <div className="absolute right-6 top-4 md:hidden">
