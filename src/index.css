@@ -1,0 +1,28 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* {
+--e-global-color-primary: #3275DB;
+--e-global-color-text: #7A7A7A;
+--e-global-color-accent: #000000;
+--e-global-color-6b48e83: #181B31;
+--e-global-color-937c300: #E8E9EE;
+--e-global-typography-primary-font-family: "IBM Plex Sans";
+--e-global-typography-primary-font-weight: 600;
+--e-global-typography-secondary-font-family: "Roboto Slab";
+--e-global-typography-secondary-font-weight: 400;
+--e-global-typography-text-font-family: "Roboto";
+--e-global-typography-text-font-weight: 400;
+--e-global-typography-accent-font-family: "Roboto";
+--e-global-typography-accent-font-weight: 500;
+color: #808291;
+font-family: "Poppins", Sans-serif;
+font-size: 1em;
+font-weight: 400;
+line-height: 1.7em;
+letter-spacing: 0px;
+} */
